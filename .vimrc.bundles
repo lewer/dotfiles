@@ -1,0 +1,24 @@
+set nocompatible
+filetype off
+
+" Vundle setup
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+Bundle 'gmarik/vundle'
+filetype plugin indent on
+
+" Liste des bundle installés 
+Bundle 'tpope/vim-sensible'
+Bundle 'bling/vim-airline'
+Bundle 'altercation/vim-colors-solarized'
+Bundle 'kien/ctrlp.vim'
+Bundle 'tpope/vim-fugitive'
+Bundle 'scrooloose/syntastic'
+Bundle 'Lokaltog/vim-easymotion'
+Bundle 'Valloric/YouCompleteMe'
+Bundle 'evidens/vim-twig'
+Bundle 'Raimondi/delimitMate'
+Bundle 'mattn/emmet-vim'
+Bundle 'scrooloose/nerdtree'
+Bundle 'SirVer/ultisnips'
+Bundle 'honza/vim-snippets'
